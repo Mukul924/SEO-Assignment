@@ -1,0 +1,42 @@
+Q5. Define Favicon and give an illustrative example.
+
+
+A favicon (short for "favorite icon") is a small, typically square image or icon associated with a website. It is displayed in various places within a web browser, such as in the browser's tab or next to the website's name in bookmarks or favorites. Favicon images are typically 16x16 pixels or 32x32 pixels in size and are saved in the ICO (icon) file format, although other formats like PNG or GIF are also used.
+
+Favicons serve several purposes, including:
+
+1. Branding: They reinforce the visual identity of a website by displaying a logo or unique icon.
+
+2. Recognition: They make it easier for users to identify and switch between open tabs when browsing multiple websites.
+ 
+3. Bookmarking: They provide a visual cue when a user bookmarks a webpage, helping them quickly locate it later.
+
+Here's an illustrative example of how to include a favicon in the HTML code of a webpage:
+
+
+
+html
+Copy code
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <!-- Add the favicon link -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    
+</body>
+</html>
+
+
+
+In this example, the <link> element with the rel="icon" attribute is used to specify the location of the favicon. The href attribute points to the location of the favicon file, which is typically named "favicon.ico." You can replace "favicon.ico" with the actual filename and path to your favicon image.
+
+Including a favicon in your website not only enhances its visual appeal but also helps users identify and remember your site more easily when they have multiple tabs open in their browser.
+
+
+
+
